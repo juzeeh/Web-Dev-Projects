@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap Lesson</title>
+
+	
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script type="text/javascript" src="custom.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 500) {
+					$('#back-to-top').fadeIn();
+				} else {
+					$('#back-to-top').fadeOut();
+				}
+			});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+	});
+
+		
+</script>
+
+
+
+
+
+</script>
+</head>
+<body>
+
+
+
+	
+
+
+	<div id="banner">
+		<nav class="navbar navbar-expand-lg navbar-light navbar-primary fixed-top navbardefault">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="image/logo.png" width="150px" height="50px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="model.html">Models</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#" data-toggle="modal" data-target="#signup">SignIn | SignOut</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" style="padding-top: 150px">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<h1 class="text-white display-3 navtitle text-center">About Us</h1>
+					<hr class="my-5 divider">
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row m-5">
+			<div class="col-lg-4 col-md-12 col-sm-12">
+
+				<iframe width="350" height="350" src="https://www.youtube.com/embed/JJHLgD6uqf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<table class="mt-5">
+							<tr>
+								<td>
+									<h3>Latest Fashion Show</h3>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+			<div class="jumbotron">
+
+				<div class="row m-5">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x primary"></i>
+							<i class="far fa-gem fa-stack-1x fa-inverse"></i>
+						</span>
+						<div class="pt-5">
+							<h4>Finding Agency</h4>
+							<p class="mt-3 text-left">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+
+					</div>
+
+
+
+
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x primary"></i>
+							<i class="far fa-star fa-stack-1x fa-inverse"></i>
+						</span>
+						<div class="pt-5">
+							<h3>Type of Modeling</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+						</div>
+
+					</div>
+
+
+
+
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x primary"></i>
+							<i class="far fa-gem fa-stack-1x fa-inverse"></i>
+						</span>
+						<div class="pt-5">
+							<h3>Freelance</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+
+					</div>
+
+
+
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x primary"></i>
+							<i class="far fa-search fa-stack-1x fa-inverse"></i>
+						</span>
+						<div class="pt-5">
+							<h3>Search Models</h3>
+							<p class="mt-3 text-left">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+
+			
+
+
+
+			
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel"><h5>Sign In | Sign Out</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-4">
+						<img src="image/girl5.jpg" class="img-fluid">
+
+					</div>
+
+					<div class="col-8">
+
+
+
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sing Up</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign In</a>
+							</li>
+
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+								<form>
+									<div class="form-group">
+										<label for="username">User Name</label>
+										<input type="text" name="" class="form-control" id="username">
+										<label for="pass">Password</label>
+										<input type="password" name="" class="form-control" id="pass">
+										<label for="email">Email</label>
+										<input type="email" name="" class="form-control" id="email">
+									</div>
+
+									<div class="offset-4 col-4 offset-4">
+										<button class="btn btn-success btn-block">Register</button>
+									</div>
+								</form>
+
+
+							</div>
+							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+								<form>
+									<div class="form-group">
+										<label for="username">User Name</label>
+										<input type="text" name="" class="form-control" id="username">
+										<label for="pass">Password</label>
+										<input type="password" name="" class="form-control" id="pass">
+										<label for="email">Email</label>
+										<input type="email" name="" class="form-control" id="email">
+										<input type="checkbox">Remember me
+									</div>
+
+									<div class="offset-4 col-4 offset-4">
+										<button class="btn btn-success btn-block">LogIn </button>
+									</div>
+								</form>
+
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<h3 align="center">My satisfied customer says</h3>
+<h6 align="center" class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h6>
+
+
+<div class="container-fluid mb-5">
+
+		<!-- </div>
+
+
+
+			<div class="container-fluid"> -->
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+
+
+							<div class="row table1">
+
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+
+							</div>
+
+
+
+						</div>
+						<div class="carousel-item">
+
+
+							<div class="row table1">
+
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+
+							</div>
+
+
+						</div>
+						<div class="carousel-item">
+
+
+							<div class="row table1">
+
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12"> 
+
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-smile-wink"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+								<div class="col-lg-3 col-md-6 col-sm-12">
+
+									<table>
+										<tr align="center">
+											<td>
+
+												<span class="fa-stack fa-2x primary2">
+
+													<i class="far fa-laugh-squint"></i>
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p class="card-text text-center">Far far away behind the
+													word mountain, far 
+													from the countries
+													Vokalia and
+													Consonantia there live
+												the blind texts. </p>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div  class="m-3">
+													<h5 align="center">Garreth Smith Model</h5>
+												</div>
+											</td>
+										</tr>
+
+									</table>
+
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						
+						<!-- <i class="fas fa-angle-up primary"></i> -->
+						<i class="fas fa-chevron-left primary"></i>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<i class="fas fa-chevron-right primary"></i>
+					</a>
+				</div>
+			</div>
+
+
+
+			<div class="primary1 text-light">
+				<div class="container">
+
+					<center><a id="back-to-top" href="#" role="button"> <i class="fas fa-angle-up"></i> </a></center>
+
+
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>About Me</h4>
+							<p class="card-text content-text-justify">Far far away behind the
+								word mountain, far 
+								from the countries
+								Vokalia and
+								Consonantia there live
+							the blind texts. </p>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>Popular Link</h4>
+
+							<h5>Top Models</h5>
+							<h5>Male Models</h5>
+							<h5>Female Models</h5>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+
+							<h4>Quick Link</h4>
+
+							<h5>About Us</h5>
+							<h5>Models</h5>
+							<h5>Blog</h5>
+							<h5>Terms & Condition</h5>
+							<h5>FAQ</h5>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>Have A Questions</h4>
+
+							<p>
+								<i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+								<p>
+									<i class="fas fa-envelope mr-3"></i> info@example.com</p>
+									<p>
+										<i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+										<p>
+											<i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-12 mb-5 mt-5">
+
+											<h6 align="center">Copyright @ 2019 | Make with </h6>
+										</div>
+
+
+									</div>
+
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+						</body>
+						</html>

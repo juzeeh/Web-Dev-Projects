@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BootStrap Lesson</title>
+
+	
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script type="text/javascript" src="custom.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 500) {
+					$('#back-to-top').fadeIn();
+				} else {
+					$('#back-to-top').fadeOut();
+				}
+			});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+	});
+
+		
+</script>
+
+
+
+
+
+</script>
+</head>
+<body>
+
+
+
+	
+
+
+	<div id="banner">
+		<nav class="navbar navbar-expand-lg navbar-light navbar-primary fixed-top navbardefault">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="image/logo.png" width="150px" height="50px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="model.html">Models</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#" data-toggle="modal" data-target="#signup">SignIn | SignOut</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container" style="padding-top: 150px">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<h1 class="text-white display-3 navtitle text-center">Contact Us</h1>
+					<hr class="my-5 divider">
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+	
+
+	
+
+
+
+	<div class="container">
+		
+		<div class="row m-5">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+
+			<h3>Contact Information</h3>
+		</div>
+
+		<div class="col-lg-3 col-md-6 col-sm-12">
+
+						
+							<div class="card" style="width: 15rem; height: 10rem;">
+  <div class="card-body bg-light">
+    <h5 class="card-title">Address</h5>
+    <p class="card-text">189 West 21th Street, Suite 71st New York NY 10016</p>
+    
+  </div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12">
+
+
+
+							<div class="card" style="width: 15rem; height: 10rem;">
+  <div class="card-body bg-light">
+    <h5 class="card-title">Phone</h5>
+    <p class="card-text">+1234567890</p>
+    
+  </div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12">
+
+						
+							<div class="card" style="width: 15rem; height: 10rem;">
+  <div class="card-body bg-light">
+    <h5 class="card-title">Email</h5>
+    <p class="card-text">Info@yoursite.com</p>
+    
+  </div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12">
+
+
+
+							<div class="card" style="width: 15rem; height: 10rem;">
+  <div class="card-body bg-light">
+    <h5 class="card-title">Websie</h5>
+    <p class="card-text">yoursite.com</p>
+    
+  </div>
+</div>
+</div></div>
+
+
+
+</div>
+
+<div class="container">
+	<div class="row m-5">
+		<div class="col-lg-6 col-md-12 col-sm-12">
+		
+		<form>
+  <div class="form-group">
+    
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+  </div>
+  <div class="form-group">
+    
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+</div>
+   <div class="form-group">
+    
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+  </div>
+    <div class="form-group">
+    
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="d-lg-block">
+						<a class="btn text-white text-center contactbtn" href="">Send Message</a>
+					</div>
+</form>
+
+	</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18166.021959483638!2d96.12482413191115!3d16.82954635939639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c194b71990dae3%3A0xd5c37278ebb4f327!2sUniversity%20of%20Yangon!5e0!3m2!1sen!2smm!4v1575971292678!5m2!1sen!2smm" width="380px" height="300px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</div>
+
+	
+</div>
+
+</div>
+
+
+
+
+<div class="modal fade" id="signup" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel"><h5>Sign In | Sign Out</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-4">
+								<img src="image/girl5.jpg" class="img-fluid">
+
+							</div>
+
+							<div class="col-8">
+
+
+
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Sing Up</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Sign In</a>
+									</li>
+
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+										<form>
+											<div class="form-group">
+												<label for="username">User Name</label>
+												<input type="text" name="" class="form-control" id="username">
+												<label for="pass">Password</label>
+												<input type="password" name="" class="form-control" id="pass">
+												<label for="email">Email</label>
+												<input type="email" name="" class="form-control" id="email">
+											</div>
+
+											<div class="offset-4 col-4 offset-4">
+												<button class="btn btn-success btn-block">Register</button>
+											</div>
+										</form>
+
+
+									</div>
+									<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+										<form>
+											<div class="form-group">
+												<label for="username">User Name</label>
+												<input type="text" name="" class="form-control" id="username">
+												<label for="pass">Password</label>
+												<input type="password" name="" class="form-control" id="pass">
+												<label for="email">Email</label>
+												<input type="email" name="" class="form-control" id="email">
+												<input type="checkbox">Remember me
+											</div>
+
+											<div class="offset-4 col-4 offset-4">
+												<button class="btn btn-success btn-block">LogIn </button>
+											</div>
+										</form>
+
+
+
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	
+
+
+
+			<div class="primary1 text-light">
+				<div class="container">
+
+					<center><a id="back-to-top" href="#" role="button"> <i class="fas fa-angle-up"></i> </a></center>
+
+
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>About Me</h4>
+							<p class="card-text content-text-justify">Far far away behind the
+								word mountain, far 
+								from the countries
+								Vokalia and
+								Consonantia there live
+							the blind texts. </p>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>Popular Link</h4>
+
+							<h5>Top Models</h5>
+							<h5>Male Models</h5>
+							<h5>Female Models</h5>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+
+							<h4>Quick Link</h4>
+
+							<h5>About Us</h5>
+							<h5>Models</h5>
+							<h5>Blog</h5>
+							<h5>Terms & Condition</h5>
+							<h5>FAQ</h5>
+
+
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+							<h4>Have A Questions</h4>
+
+							<p>
+								<i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+								<p>
+									<i class="fas fa-envelope mr-3"></i> info@example.com</p>
+									<p>
+										<i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+										<p>
+											<i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-12 mb-5 mt-5">
+
+											<h6 align="center">Copyright @ 2019 | Make with </h6>
+										</div>
+
+
+									</div>
+
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+						</body>
+						</html>
